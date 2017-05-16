@@ -6,6 +6,7 @@ import tiendm.pattern.factory.entity.Shape;
 import tiendm.pattern.factory.entity.ShapeType;
 
 public class FactoryDemo  {
+	//Test commit git
 	public static void main(String[] args) {
 		AbstractFactory shapeFactory = new ShapeFactory();
 		Shape rectangle = shapeFactory.getShape(ShapeType.RECTANGLE);
